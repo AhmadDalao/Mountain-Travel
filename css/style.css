@@ -126,6 +126,7 @@
     background-position: center center;
     position: relative;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero-section .hero-text-container {
