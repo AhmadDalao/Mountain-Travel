@@ -444,7 +444,7 @@ body {
         width: auto;
         position: initial;
         float: right;
-        margin-right: 10%;
+        margin-right: 5%;
         align-items: center;
         visibility: visible;
         display: flex;
@@ -495,10 +495,14 @@ body {
 
 @media screen and (max-device-width: 1024px) {
     .hero-section .hero-image-holder {
-        background-size: auto;
-        -webkit-background-size: auto;
-        -moz-background-size: auto;
-        -o-background-size: auto;
+        background-size: auto !important;
+        -webkit-background-size: auto !important;
+        -moz-background-size: auto !important;
+        -o-background-size: auto !important;
+        background-attachment: local !important;
+        -webkit-background-attachment: local !important;
+        -moz-background-attachment: local !important;
+        -o-background-attachment: local !important;
     }
 }
 
