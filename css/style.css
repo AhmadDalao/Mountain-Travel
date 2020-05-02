@@ -224,14 +224,16 @@ body {
 .about-card {
     border-radius: 8px;
     border-top: 3px solid #428DD9;
-    box-shadow: 0px 0px 10px 0px rgba(214, 214, 214, 1);
+    box-shadow: 0px 5px 10px 0px rgba(214, 214, 214, 1);
     padding: 20px;
 }
 
 .about-us .about-card-holder .card-image {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 30px;
+    border-bottom: 2px solid #428DD9;
+    padding-bottom: 10px;
 }
 
 .about-card-text h3 {
@@ -242,6 +244,38 @@ body {
 
 .about-card-text p {
     text-align: center;
+}
+
+
+/*
+*
+* destination section 
+*
+*/
+
+.destination {
+    background-color: #cccccc3a;
+}
+
+.destination .destination-text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.destination-images-container {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax( 22rem, 1fr));
+    grid-auto-flow: row;
+}
+
+.seventeen-percent {
+    grid-column: span 2;
+}
+
+.destination-image-holder {
+    width: 100%;
+    height: 300px;
 }
 
 
@@ -317,6 +351,15 @@ body {
         display: grid;
         grid-gap: 2rem;
         grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+    .destination .container {
+        width: 100vw;
+    }
+    .destination-images-container {
+        grid-template-columns: repeat(auto-fill, minmax( 22rem, 1fr));
+    }
+    .seventeen-percent {
+        grid-column: unset;
     }
 }
 
