@@ -493,7 +493,11 @@ body {
 * 
 */
 
-@media screen and (max-device-width: 1024px) {}
+@media screen and (max-device-width: 1024px) {
+    .hero-section .hero-image-holder {
+        background-size: auto;
+    }
+}
 
 
 /*
