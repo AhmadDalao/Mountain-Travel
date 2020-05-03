@@ -12,6 +12,6 @@ function myFunction() {
         x.className = "navbar-list";
         document.getElementById("my-iconX").style.display = "none";
         document.getElementById("my-icon").style.display = "block";
-        document.getElementById("navbar").style.backgroundColor = "unset";
+        document.getElementById("navbar").style.backgroundColor = "#44444473";
     }
 }
