@@ -281,13 +281,10 @@
 }
 
 .card-image-holder img {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
     transition: all 0.6s ease-in-out;
 }
 
 .card-image-holder img:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     transform: scale(1.3);
 }
 
@@ -324,6 +321,22 @@
 .destination .destination-text {
     text-align: center;
     padding-bottom: 40px;
+}
+
+.rate {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.duration {
+    float: right;
+    display: block;
+    color: rgba(0, 0, 0, 0.582);
+    opacity: .7;
+}
+
+.duration-time {
+    display: inline;
 }
 
 .destination-images-container {
@@ -486,6 +499,14 @@
     }
     .destination-image-holder {
         height: 300px;
+    }
+    .destination-card-holder {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .card-image-holder {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 }
 
