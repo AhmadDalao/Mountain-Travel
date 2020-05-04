@@ -26,7 +26,7 @@
                         <li><a class="navbar-link" onclick="myFunction()" rel="noopener" href="#about-us">Tour</a></li>
                         <li><a class="navbar-link" onclick="myFunction()" rel="noopener" href="#destination">destination</a></li>
                         <li><a class="navbar-link" onclick="myFunction()" rel="noopener" href="#pricing">Pricing</a></li>
-                        <li><a class="navbar-link" onclick="myFunction()" rel="noopener" href="#">Contact</a></li>
+                        <li><a class="navbar-link" onclick="myFunction()" rel="noopener" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </section>
@@ -352,10 +352,10 @@
     </section>
     <!--end  destination -->
     <!--Start  price -->
-    <section class="padding-top-bottom" id="pricing">
+    <section class="padding-top-bottom price" id="pricing">
         <div class="container">
             <div style="text-align: center;" class="price-text-holder">
-                <h2 class="about-h2">Pricing</h2>
+                <h2 style="padding-top: 0;" class="about-h2">Pricing</h2>
             </div>
             <div class="price-card-container">
                 <div class="price-card">
@@ -444,13 +444,51 @@
         </div>
     </section>
     <!--end  price -->
-    <!--Start  footer -->
-    <footer class="padding-top-bottom">
+    <!--Start  contact -->
+    <section id="contact" class="padding-top-bottom">
         <div class="container">
-
+            <div class="contact-title">
+                <h2 class="about-h2">Contact us</h2>
+            </div>
+            <div class="contact-holder">
+                <div class="contact-form-holder">
+                    <div class="contact-title">
+                        <h2 class="about-h2">Get in touch</h2>
+                    </div>
+                    <div class="contact-form">
+                        <form name="contactform" id="contactform" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                            <p class="hidden">
+                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                            </p>
+                            <label for="name">Name </label>
+                            <input type="text" id="name" name="name" placeholder="Your name.." required autocomplete="on" />
+                            <label for="email">Email </label>
+                            <input type="email" id="email" name="email" placeholder="Your email.." required autocomplete="on" />
+                            <label for="message">Your message </label>
+                            <textarea name="message" id="message" placeholder="Write your message.." style="height:200px" required autocomplete="on"></textarea>
+                            <input type="submit" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="information-title">
+                        <h2 class="about-h2">Contact information</h2>
+                    </div>
+                    <div class="information-holder">
+                        <div class="information-list">
+                            <ul>
+                                <li><i class="fas fa-map-marker-alt"></i><span>Hi</span></li>
+                                <li><i class="fas fa-phone"></i><span>+ 123 4578 543</span></li>
+                                <li><i class="fas fa-envelope"></i><span>info@youremail.com</span></li>
+                                <li><i class="fas fa-globe-americas"></i><span>yourwebsite.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <!--end  footer -->
+    </section>
+    <!--end  contact -->
 
 
 

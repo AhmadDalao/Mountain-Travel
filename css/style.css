@@ -55,7 +55,8 @@
     height: 80px;
     top: 0;
     left: 0;
-    background-color: #5D5252;
+    /* background-color: #5D5252; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #191e22;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
     z-index: 10;
     position: fixed;
@@ -425,7 +426,7 @@
 .price-card-container {
     display: grid;
     grid-gap: 3rem;
-    padding-top: 60px;
+    padding: 60px 0;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
@@ -511,9 +512,113 @@
 
 /*
 *
-*   ============================  footer section   ============================
+*   ============================  contact section   ============================
 * 
 */
+
+#contact {
+    background-color: #cccccc3a;
+}
+
+.contact-form-holder,
+.information-holder {
+    float: left;
+    width: 50%;
+}
+
+.contact-title h2,
+.contact-info h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* change it using media query */
+
+.contact-title,
+.information-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-text h2 {
+    padding-bottom: 30px;
+}
+
+.contact-holder {
+    display: inline-block;
+}
+
+
+/* Style inputs with type="text", and textarea */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type="submit"] {
+    background-color: #0B61DF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type="submit"]:hover {
+    opacity: .6;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contact-form {
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 20, 0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 20, 0.2);
+    padding: 20px;
+}
+
+.contact-form label {
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.hidden {
+    display: none;
+}
+
+.information-list ul {
+    list-style: none;
+    display: block;
+    color: rgba(0, 0, 0, 0.582);
+    opacity: .7;
+}
+
+.information-list ul li {
+    padding: 20px;
+}
+
+.information-list ul li span {
+    padding: 0 20px;
+}
 
 
 /*
