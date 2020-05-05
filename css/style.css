@@ -55,7 +55,8 @@
     height: 80px;
     top: 0;
     left: 0;
-    background-color: #5D5252;
+    /* background-color: #5D5252; */
+    background-color: #035aa6;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
     z-index: 10;
     position: fixed;
@@ -74,7 +75,10 @@
     margin-left: 10%;
 }
 
-.header .navbar .logo-container .logo-holder h2,
+.header .navbar .logo-container .logo-holder h2 {
+    color: whitesmoke;
+}
+
 .header .navbar .list-container ul li a {
     color: whitesmoke;
     opacity: .7;
@@ -439,7 +443,8 @@
 
 .curved {
     position: relative;
-    background: #2c3e50;
+    /* background: #2c3e50; */
+    background: #035aa6;
     /* height: 50vh; */
     border-bottom-left-radius: 80% 100%;
     /* border-bottom-left-radius: 89% 82%; */
@@ -449,7 +454,7 @@
 .price-head-price,
 .price-head-title {
     /* background-color: #0B61DF; */
-    background-color: #00adb5;
+    background-color: #035aa6;
 }
 
 .card-white-color {
@@ -499,15 +504,15 @@
     margin: 0 auto;
     font-weight: bold;
     width: 150px;
-    color: #00adb5;
-    border: 1px solid #00adb5;
+    color: #035aa6;
+    border: 1px solid #035aa6;
     text-decoration: none;
     text-transform: uppercase;
     transition: all .5s ease;
 }
 
 .sign-up a:hover {
-    background-color: #00adb5;
+    background-color: #035aa6;
     color: white;
 }
 
@@ -540,7 +545,6 @@
 .contact-title,
 .information-title {
     text-align: center;
-    padding-bottom: 30px;
 }
 
 .contact-text h2 {
@@ -572,7 +576,7 @@ textarea {
 /* Style the submit button with a specific background color etc */
 
 input[type="submit"] {
-    background-color: #00adb5;
+    background-color: #035aa6;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -617,11 +621,13 @@ input[type="submit"]:hover {
 }
 
 .information-list ul li {
-    padding: 20px;
+    padding: 0 20px 40px 20px;
 }
 
 .information-list ul li span {
     padding: 0 20px;
+    display: inline-flex;
+    width: 90%;
 }
 
 
@@ -675,7 +681,8 @@ input[type="submit"]:hover {
         height: auto;
         left: 0;
         box-shadow: 2px 25px 50px rgba(68, 68, 68, 0.8);
-        background-color: #5D5252;
+        /* background-color: #5D5252; */
+        background-color: #035aa6;
     }
     .header .navbar .list-container ul {
         padding: 0;
@@ -737,6 +744,22 @@ input[type="submit"]:hover {
         grid-gap: 1.5rem;
         grid-template-columns: repeat(auto-fill, minmax( 15rem, 1fr));
     }
+    .contact-title h2,
+    .contact-info h2 {
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .information-list ul li {
+        padding: 0 20px 40px 0;
+    }
+    .information-holder {
+        width: 100%;
+    }
+    .contact-title h2,
+    .contact-info h2 {
+        text-align: left;
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -769,7 +792,8 @@ input[type="submit"]:hover {
         top: 80px;
         height: auto;
         box-shadow: 2px 25px 50px rgba(68, 68, 68, 0.8);
-        background-color: #5D5252;
+        /* background-color: #5D5252; */
+        background-color: #035aa6;
         left: 0;
     }
     .header .navbar .list-container ul {
@@ -800,6 +824,11 @@ input[type="submit"]:hover {
     .information-holder {
         float: unset;
         width: 100%;
+    }
+    .contact-title h2,
+    .contact-info h2 {
+        text-align: left;
+        padding-bottom: 20px;
     }
 }
 
@@ -849,6 +878,9 @@ input[type="submit"]:hover {
     .header .navbar .list-container ul li a:hover {
         background-color: unset
     }
+    .information-list ul li {
+        padding: 0 20px 40px 0;
+    }
 }
 
 
@@ -869,6 +901,19 @@ input[type="submit"]:hover {
     .information-holder {
         float: left;
         width: 50%;
+    }
+    .information-holder {
+        display: flex;
+        padding: 0 50px 50px;
+        justify-content: center;
+    }
+    .contact-title h2,
+    .contact-info h2 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .information-list ul li {
+        padding: 0 20px 40px 20px;
     }
 }
 
