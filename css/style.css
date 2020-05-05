@@ -210,13 +210,15 @@
     text-transform: capitalize;
     padding-top: 30px;
     color: rgba(0, 0, 0, 0.582);
+    color: #888888;
 }
 
 .about-p {
     padding: 30px 0;
     /* text-align: left; */
     line-height: 2;
-    color: #112940;
+    /* color: #112940; */
+    color: #888888;
 }
 
 .outer-holder {
@@ -446,7 +448,8 @@
 
 .price-head-price,
 .price-head-title {
-    background-color: #0B61DF;
+    /* background-color: #0B61DF; */
+    background-color: #00adb5;
 }
 
 .card-white-color {
@@ -496,15 +499,15 @@
     margin: 0 auto;
     font-weight: bold;
     width: 150px;
-    color: #0B61DF;
-    border: 1px solid #0B61DF;
+    color: #00adb5;
+    border: 1px solid #00adb5;
     text-decoration: none;
     text-transform: uppercase;
     transition: all .5s ease;
 }
 
 .sign-up a:hover {
-    background-color: #0B61DF;
+    background-color: #00adb5;
     color: white;
 }
 
@@ -569,7 +572,7 @@ textarea {
 /* Style the submit button with a specific background color etc */
 
 input[type="submit"] {
-    background-color: #0B61DF;
+    background-color: #00adb5;
     color: white;
     padding: 12px 20px;
     border: none;
