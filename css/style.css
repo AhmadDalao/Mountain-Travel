@@ -50,14 +50,21 @@
     position: absolute;
 }
 
+.nav-colored {
+    background-color: #035aa6;
+}
+
+.nav-transparent {
+    background-color: transparent;
+}
+
 .header .navbar {
     width: 100%;
     height: 80px;
     top: 0;
     left: 0;
     /* background-color: #5D5252; */
-    background-color: #035aa6;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); */
     z-index: 10;
     position: fixed;
 }
