@@ -642,6 +642,7 @@ input[type="submit"]:hover {
         width: 70%;
     }
     .bar-container {
+        width: 30%;
         display: flex;
         height: inherit;
         align-items: center;
@@ -867,7 +868,6 @@ input[type="submit"]:hover {
         -moz-background-size: auto !important;
         -o-background-size: auto !important;
         background-attachment: local !important;
-        -webkit-background-attachment: local !important;
         -moz-background-attachment: local !important;
         -o-background-attachment: local !important;
     }
