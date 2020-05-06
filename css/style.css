@@ -678,7 +678,6 @@ input[type="submit"]:hover {
     width: 50px;
     height: 50px;
     padding: 10px;
-    border-radius: 50%;
     background-color: #ffffff;
 }
 
@@ -713,6 +712,12 @@ input[type="submit"]:hover {
 * 
 */
 
+@media only screen and (max-width: 450px) {
+    .copyright {
+        font-size: .9rem;
+    }
+}
+
 
 /*
 *
@@ -722,7 +727,7 @@ input[type="submit"]:hover {
 
 @media only screen and (max-width: 600px) {
     .hero-section .text-holder h1 {
-        font-size: 1.9em;
+        font-size: 1.6rem;
     }
     .header .navbar .logo-container {
         width: 70%;
@@ -849,6 +854,19 @@ input[type="submit"]:hover {
     }
 }
 
+@media only screen and (min-width:450px) and (max-width:600px) {
+    .destination-cards-container {
+        grid-template-columns: repeat(auto-fill, minmax( 20rem, 1fr));
+    }
+    .destination-images-container {
+        grid-template-columns: repeat(auto-fill, minmax( 20rem, 1fr));
+    }
+    .price-card {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
 
 /*
 *
@@ -856,7 +874,7 @@ input[type="submit"]:hover {
 * 
 */
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 600px) {
     .bar-container {
         display: flex;
         height: inherit;
@@ -1058,6 +1076,9 @@ input[type="submit"]:hover {
     .footer .follow-us {
         width: unset;
         text-align: center;
+    }
+    .price-card {
+        margin: unset;
     }
 }
 
