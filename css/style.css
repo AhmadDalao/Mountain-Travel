@@ -658,9 +658,9 @@ input[type="submit"]:hover {
 */
 
 .subscribe .hero-image-subscribe {
-    height: 40vh;
+    height: 45vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -672,7 +672,7 @@ input[type="submit"]:hover {
 }
 
 .outer-holder-subscribe {
-    height: 40vh;
+    height: 45vh;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -867,6 +867,19 @@ input[type="submit"]:hover {
         text-align: left;
         padding-bottom: 20px;
     }
+    .subscribe .container {
+        width: 90vw;
+    }
+    .outer-holder-subscribe .subscribe-data-container h2 {
+        font-size: 1.5rem;
+    }
+    .subscribe-data input {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .subscribe-data a {
+        padding-top: 10px;
+    }
     .footer-icons {
         display: flex;
         width: 100%;
@@ -897,6 +910,10 @@ input[type="submit"]:hover {
     .price-card {
         max-width: 300px;
         margin: 0 auto;
+    }
+    .subscribe-data input {
+        width: 60%;
+        margin-bottom: 30px;
     }
 }
 
@@ -989,6 +1006,10 @@ input[type="submit"]:hover {
     }
     .footer-about-us {
         width: 100%;
+    }
+    .subscribe-data input {
+        width: 45%;
+        margin-bottom: unset;
     }
 }
 
