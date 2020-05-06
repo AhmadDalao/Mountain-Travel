@@ -671,6 +671,13 @@ input[type="submit"]:hover {
     /* background-attachment: fixed; */
 }
 
+.outer-holder-subscribe {
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 
 /*
 *
