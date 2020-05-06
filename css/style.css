@@ -504,7 +504,7 @@
     width: 100%;
 }
 
-.sign-up a {
+.custom-button {
     font-size: 18px;
     padding: 10px;
     margin: 0 auto;
@@ -517,9 +517,14 @@
     transition: all .5s ease;
 }
 
-.sign-up a:hover {
+.custom-button:hover {
     background-color: #035aa6;
     color: white;
+}
+
+.subscribe-data {
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -643,6 +648,27 @@ input[type="submit"]:hover {
     cursor: pointer;
     font-weight: bold;
     text-decoration: underline;
+}
+
+
+/*
+*
+*   ============================  subscribe section   ============================
+* 
+*/
+
+.subscribe .hero-image-subscribe {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 
 
