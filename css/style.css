@@ -363,6 +363,14 @@
     padding: 20px 0;
 }
 
+.testimonials:hover {
+    background-color: #88888878;
+}
+
+.testimonials:hover q {
+    opacity: 1;
+}
+
 .testimonial-title-holder {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
@@ -642,7 +650,7 @@
     background-position: center center;
     position: relative;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 .subscribe-data {
@@ -1148,6 +1156,9 @@ input[type="submit"]:hover {
         line-height: 1.5;
         text-align: center;
         color: #888888;
+    }
+    .subscribe .hero-image-subscribe {
+        background-attachment: fixed;
     }
 }
 
