@@ -1148,13 +1148,16 @@ input[type="submit"]:hover {
         margin-bottom: unset;
     }
     .subscribe-data input[type="email"] {
-        margin: 0;
+        margin: 0 15px 0 0;
     }
     .testimonials p {
         padding: 10px 0;
         line-height: 1.5;
         text-align: center;
         color: #888888;
+    }
+    .subscribe-data a {
+        margin-left: 0;
     }
 }
 
