@@ -1289,6 +1289,11 @@ input[type="submit"]:hover {
 */
 
 @media screen and (max-width: 1024px) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: smooth;
+    }
     .hero-section .hero-image-holder {
         background-size: auto !important;
         -webkit-background-size: auto !important;
