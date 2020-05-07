@@ -650,7 +650,6 @@
     background-position: center center;
     position: relative;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .subscribe-data {
@@ -1156,9 +1155,6 @@ input[type="submit"]:hover {
         line-height: 1.5;
         text-align: center;
         color: #888888;
-    }
-    .subscribe .hero-image-subscribe {
-        background-attachment: fixed;
     }
 }
 
