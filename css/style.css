@@ -541,15 +541,6 @@
     text-align: center;
 }
 
-.subscribe-data-container .subscribe-data input {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 0;
-    margin-bottom: 0;
-    resize: vertical;
-}
-
 
 /*
 *
@@ -609,7 +600,8 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 
-input[type="submit"] {
+input[type="submit"],
+.subscribe-data a {
     background-color: #035aa6;
     color: white;
     padding: 12px 20px;
