@@ -143,7 +143,7 @@
 .hero-section .hero-image-holder {
     height: 100vh;
     width: 100%;
-    background-image: url("../images/joao-tzanno-_KO9Bs7ESxM-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/joao-tzanno-_KO9Bs7ESxM-unsplash.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
