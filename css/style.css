@@ -660,7 +660,8 @@
     width: 100%;
 }
 
-.subscribe-data a {
+
+/* .subscribe-data a {
     background-color: #035aa6;
     color: white;
     opacity: 1;
@@ -670,7 +671,7 @@
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-}
+} */
 
 
 /*
@@ -720,7 +721,7 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 11.5px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 6px;
@@ -872,9 +873,9 @@ input[type="submit"]:hover {
     .subscribe-data {
         display: block;
     }
-    .subscribe-data a {
+    /* .subscribe-data a {
         margin-left: 0;
-    }
+    } */
     .subscribe-data input[type="email"] {
         margin-bottom: 40px;
     }
@@ -1003,7 +1004,7 @@ input[type="submit"]:hover {
         font-size: 1.5rem;
     }
     .subscribe-data input {
-        width: 80%;
+        /* width: 80%; */
         margin-bottom: 30px;
     }
     .footer-icons {
@@ -1044,7 +1045,7 @@ input[type="submit"]:hover {
         margin: 0 auto;
     }
     .subscribe-data input {
-        width: 60%;
+        /* width: 60%; */
         margin-bottom: 30px;
     }
     .subscribe-data input[type="email"] {
@@ -1143,7 +1144,7 @@ input[type="submit"]:hover {
         width: 100%;
     }
     .subscribe-data input {
-        width: 45%;
+        /* width: 45%; */
         margin-bottom: unset;
     }
     .subscribe-data input[type="email"] {
@@ -1155,9 +1156,9 @@ input[type="submit"]:hover {
         text-align: center;
         color: #888888;
     }
-    .subscribe-data a {
+    /* .subscribe-data a {
         margin-left: 0;
-    }
+    } */
 }
 
 
