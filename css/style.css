@@ -352,6 +352,20 @@
     display: inline;
 }
 
+
+/*
+*
+*   ============================  testimonial section   ============================
+* 
+*/
+
+
+/*
+*
+*   ============================  destination-recent places section   ============================
+* 
+*/
+
 .destination-images-container {
     display: grid;
     grid-gap: 1.5rem;
@@ -527,6 +541,15 @@
     text-align: center;
 }
 
+.subscribe-data-container .subscribe-data input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    resize: vertical;
+}
+
 
 /*
 *
@@ -678,6 +701,19 @@ input[type="submit"]:hover {
     justify-content: center;
 }
 
+.subscribe-data a {
+    background-color: #035aa6;
+    color: white;
+    opacity: 1;
+    font-size: unset;
+    padding: 12px 30px;
+    width: 150px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 
 /*
 *
@@ -748,6 +784,9 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 450px) {
     .copyright {
         font-size: .9rem;
+    }
+    .subscribe-data-container .subscribe-data input {
+        margin-bottom: 20px;
     }
 }
 
@@ -876,9 +915,6 @@ input[type="submit"]:hover {
     .subscribe-data input {
         width: 80%;
         margin-bottom: 30px;
-    }
-    .subscribe-data a {
-        padding-top: 10px;
     }
     .footer-icons {
         display: flex;
