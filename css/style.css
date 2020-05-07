@@ -672,6 +672,15 @@ input[type="submit"]:hover {
 * 
 */
 
+
+/* .subscribe .hero-image-subscribe .container {
+    height: 450px;
+}
+
+.subscribe-data-container {
+    height: 40%;
+} */
+
 .subscribe .hero-image-subscribe {
     height: 450px;
     width: 100%;
