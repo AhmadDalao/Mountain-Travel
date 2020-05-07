@@ -728,6 +728,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 
@@ -744,6 +745,7 @@ input[type="submit"] {
     text-transform: uppercase;
     cursor: pointer;
     -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 
@@ -880,6 +882,7 @@ input[type="submit"]:hover {
     } */
     .subscribe-data input[type="email"] {
         margin-bottom: 40px;
+        width: 80%;
     }
 }
 
@@ -1005,9 +1008,8 @@ input[type="submit"]:hover {
     .outer-holder-subscribe .subscribe-data-container h2 {
         font-size: 1.5rem;
     }
-    .subscribe-data input {
-        /* width: 80%; */
-        margin-bottom: 30px;
+    .subscribe-data input[type="email"] {
+        width: 80%;
     }
     .footer-icons {
         display: flex;
@@ -1046,12 +1048,9 @@ input[type="submit"]:hover {
         max-width: 300px;
         margin: 0 auto;
     }
-    .subscribe-data input {
-        /* width: 60%; */
-        margin-bottom: 30px;
-    }
     .subscribe-data input[type="email"] {
-        margin: 0;
+        margin: 0 15px 0 0;
+        width: 50%;
     }
 }
 
@@ -1145,12 +1144,9 @@ input[type="submit"]:hover {
     .footer-about-us {
         width: 100%;
     }
-    .subscribe-data input {
-        /* width: 45%; */
-        margin-bottom: unset;
-    }
     .subscribe-data input[type="email"] {
         margin: 0 15px 0 0;
+        width: 45%;
     }
     .testimonials p {
         padding: 10px 0;
@@ -1351,5 +1347,8 @@ input[type="submit"]:hover {
     }
     .testimonial-title-holder {
         background-attachment: fixed;
+    }
+    .subscribe-data input[type="email"] {
+        width: 40%;
     }
 }
