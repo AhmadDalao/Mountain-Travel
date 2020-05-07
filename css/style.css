@@ -673,7 +673,7 @@ input[type="submit"]:hover {
 */
 
 .subscribe .hero-image-subscribe {
-    height: 45vh;
+    height: 450px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
     background-size: cover;
@@ -687,7 +687,7 @@ input[type="submit"]:hover {
 }
 
 .outer-holder-subscribe {
-    height: 45vh;
+    height: 450px;
     align-items: center;
     display: flex;
     justify-content: center;
