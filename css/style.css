@@ -729,8 +729,6 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }
 
 
@@ -746,8 +744,6 @@ input[type="submit"] {
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    /* -webkit-appearance: none;
-    -moz-appearance: none; */
 }
 
 
