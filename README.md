@@ -6,9 +6,12 @@
 -[Live Demo]: https://dalaotravel.netlify.app/
 
 
-
+<br>
+    <img src="https://raw.githubusercontent.com/AhmadDalao/Mountain-Travel/master/images/landing1.png" height="600" width="800"/>
+<br>
 
 <br>
     <img src="https://raw.githubusercontent.com/AhmadDalao/Mountain-Travel/master/images/landing.png" height="600" width="800"/>
 <br>
+
 
