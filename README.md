@@ -9,5 +9,5 @@
 
 
 <br>
-    <img src="https://raw.githubusercontent.com/AhmadDalao/Linear-Gradient-picker/master/images/landing.png"  width="1000"/>
+    <img src="https://raw.githubusercontent.com/AhmadDalao/Mountain-Travel/master/images/landing.png"  width="1000"/>
 <br>
