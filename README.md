@@ -8,12 +8,12 @@
 
 
 <br>
-    <img src="https://raw.githubusercontent.com/AhmadDalao/Dice-game/master/images/landing1.png" height="600" width="800"/>
+    <img src="https://raw.githubusercontent.com/AhmadDalao/Mountain-Travel/master/images/landing1.png" height="600" width="800"/>
 <br>
 
 
 <br>
-    <img src="https://raw.githubusercontent.com/AhmadDalao/Dice-game/master/images/landing.png" height="600" width="800"/>
+    <img src="https://raw.githubusercontent.com/AhmadDalao/Mountain-Travel/master/images/landing.png" height="600" width="800"/>
 <br>
 
 
