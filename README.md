@@ -9,5 +9,6 @@
 
 
 <br>
-    <img src="https://raw.githubusercontent.com/AhmadDalao/Mountain-Travel/master/images/landing.png"  width="800"/>
+    <img src="https://raw.githubusercontent.com/AhmadDalao/Mountain-Travel/master/images/landing.png" height="600" width="1200"/>
 <br>
+
