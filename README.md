@@ -8,3 +8,6 @@
 
 
 
+<br>
+    <img src="https://raw.githubusercontent.com/AhmadDalao/Linear-Gradient-picker/master/images/landing.png"  width="1000"/>
+<br>
