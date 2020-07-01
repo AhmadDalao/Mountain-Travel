@@ -29,7 +29,7 @@ body {
 
 .hero-image {
     width: 100%;
-    height: 100%;
+    height: 300px;
 }
 
 .clear {
@@ -44,6 +44,11 @@ body {
 .custom__text {
     text-align: center;
     color: rgb(136, 136, 136);
+}
+
+.h3,
+h3 {
+    font-size: 1.50rem;
 }
 
 
@@ -63,6 +68,10 @@ body {
 
 .nav-colored {
     background-color: #333333;
+}
+
+.navbar-toggler {
+    color: whitesmoke;
 }
 
 .nav-transparent {
@@ -188,13 +197,6 @@ body {
 
 .destination {
     background-color: #cccccc3a;
-}
-
-.destination-cards-container {
-    padding: 60px 0;
-    display: grid;
-    grid-gap: 1.5rem;
-    grid-template-columns: repeat(auto-fill, minmax( 22rem, 1fr));
 }
 
 .destination-card-holder {
@@ -348,6 +350,25 @@ body {
 *   ============================  destination-recent places section   ============================
 * 
 */
+
+.background-holder {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image-text {
+    position: absolute;
+    width: 100%;
+    bottom: -50%;
+    color: #989898;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease;
+}
+
+.background-holder:hover .hero-image-text {
+    bottom: 0;
+}
 
 
 /*
@@ -558,64 +579,12 @@ a.footer__icon:hover {
 * 
 */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
     .hero-section .text-holder h1 {
         font-size: 1.6rem;
     }
-    .header .navbar .logo-container {
-        width: 70%;
-    }
-    .bar-container {
-        display: flex;
-        height: inherit;
-        align-items: center;
-        justify-content: flex-end;
-        padding-right: 20px;
-    }
-    .header .navbar .list-container .navbar-list {
-        height: auto;
-        visibility: hidden;
-        width: 100%;
-        display: block;
-        position: fixed;
-        left: 0;
-        top: 80px;
-    }
-    .responsive .navbar-ul {
-        display: block;
-        visibility: visible;
-        top: 80px;
-        height: auto;
-        left: 0;
-        box-shadow: 2px 25px 50px rgba(68, 68, 68, 0.8);
-        /* background-color: #5D5252; */
-        background-color: #333333;
-    }
-    .header .navbar .list-container ul {
-        padding: 0;
-    }
-    .header .navbar .list-container ul li {
-        display: block;
-        padding: 0;
-    }
-    .header .navbar .list-container ul li a:hover {
-        color: white;
-        text-decoration: underline;
-        background-color: rgba(169, 169, 169, 0.234);
-    }
-    .header .navbar .list-container {
-        width: 0;
-    }
-    .header .navbar .list-container ul li a {
-        text-align: center;
-        display: block;
-    }
     .destination-image-holder {
         height: 300px;
-    }
-    .card-image-holder {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
     }
     .subscribe__title {
         font-size: 1.5rem;
@@ -629,36 +598,9 @@ a.footer__icon:hover {
 * 
 */
 
-@media only screen and (min-width: 576px) {
-    .responsive .navbar-ul {
-        display: block;
-        visibility: visible;
-        top: 80px;
-        height: auto;
-        box-shadow: 2px 25px 50px rgba(68, 68, 68, 0.8);
-        /* background-color: #5D5252; */
-        background-color: #333333;
-        left: 0;
-    }
-    .header .navbar .list-container ul li a:hover {
-        color: white;
-        text-decoration: underline;
-        background-color: rgba(169, 169, 169, 0.234);
-    }
-}
+@media only screen and (min-width: 576px) {}
 
-
-/*
-*
-*   Medium devices (landscape tablets, 768px and up) The navbar toggle appears at this breakpoint
-* 
-*/
-
-@media only screen and (min-width: 768px) {
-    .bar-container {
-        display: none;
-    }
-}
+@media only screen and (min-width: 768px) {}
 
 
 /*
@@ -667,11 +609,7 @@ a.footer__icon:hover {
 *
 */
 
-@media only screen and (min-width: 850px) {
-    .header .navbar .list-container ul li a {
-        font-size: 18px;
-    }
-}
+@media only screen and (min-width: 850px) {}
 
 
 /*
