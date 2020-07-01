@@ -27,11 +27,6 @@
     height: 100%;
 }
 
-.container {
-    width: 80vw;
-    margin: auto;
-}
-
 .padding-top-bottom {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -213,53 +208,14 @@
 *
 */
 
-.about-text {
-    text-align: center;
-}
-
-.about-h2 {
+.about__title {
     line-height: 2;
-    text-transform: capitalize;
-    padding-top: 30px;
     color: rgba(0, 0, 0, 0.582);
     color: #888888;
 }
 
-.about-p {
-    padding: 30px 0;
-    /* text-align: left; */
-    line-height: 2;
-    /* color: #112940; */
+.about__p {
     color: #888888;
-}
-
-.outer-holder {
-    padding-top: 40px;
-}
-
-.about-card {
-    border-radius: 8px;
-    border-top: 3px solid #035aa6;
-    box-shadow: 0px 5px 10px 0px rgba(214, 214, 214, 1);
-    padding: 20px;
-}
-
-.about-us .about-card-holder .card-image {
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 30px;
-    border-bottom: 2px solid #035aa6;
-    padding-bottom: 10px;
-}
-
-.about-card-text h3 {
-    text-align: center;
-    padding-top: 30px;
-    color: #888888;
-}
-
-.about-card-text p {
-    text-align: center;
 }
 
 
@@ -539,32 +495,19 @@
 * 
 */
 
-.price-card-container {
-    display: grid;
-    grid-gap: 3rem;
-    padding-top: 60px;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-}
-
 .price-card {
     background-color: white;
-    /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); */
     box-shadow: 2px 2px 10px rgba(0, 0, 20, 0.2);
 }
 
 .curved {
     position: relative;
-    /* background: #2c3e50; */
     background: #035aa6;
-    /* height: 50vh; */
     border-bottom-left-radius: 80% 100%;
-    /* border-bottom-left-radius: 89% 82%; */
-    /* border-bottom-right-radius: 50% 42%; */
 }
 
 .price-head-price,
 .price-head-title {
-    /* background-color: #0B61DF; */
     background-color: #035aa6;
 }
 
@@ -634,13 +577,6 @@
 * 
 */
 
-.subscribe .hero-image-subscribe .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .subscribe .hero-image-subscribe {
     height: 450px;
     width: 100%;
@@ -654,27 +590,6 @@
     background-repeat: no-repeat;
 }
 
-.subscribe-data {
-    margin: 0 auto;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    width: 100%;
-}
-
-
-/* .subscribe-data a {
-    background-color: #035aa6;
-    color: white;
-    opacity: 1;
-    text-align: center;
-    padding: 11.5px 30px;
-    width: 150px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-} */
-
 
 /*
 *
@@ -684,36 +599,6 @@
 
 #contact {
     background-color: #cccccc3a;
-}
-
-.contact-form-holder,
-.information-holder {
-    float: left;
-    width: 50%;
-}
-
-.contact-title h2,
-.contact-info h2 {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-
-/* change it using media query */
-
-.contact-title,
-.information-title {
-    text-align: center;
-}
-
-.contact-text h2 {
-    padding-bottom: 30px;
-}
-
-.contact-holder {
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
 }
 
 
@@ -750,7 +635,8 @@ input[type="submit"] {
 /* When moving the mouse over the submit button, add a darker green color */
 
 input[type="submit"]:hover {
-    opacity: .6;
+    border: none;
+    background-color: #5b9ed8;
 }
 
 
@@ -772,26 +658,14 @@ input[type="submit"]:hover {
     display: none;
 }
 
-.information-list ul {
-    list-style: none;
-    display: block;
-    color: rgba(0, 0, 0, 0.582);
-    opacity: .7;
-}
-
-.information-list ul li {
-    padding: 0 20px 40px 20px;
-}
-
-.information-list ul li span {
+.information__holder ul li span {
     padding: 0 20px;
-    display: inline-flex;
     color: #428DD9;
     opacity: .8;
     width: 90%;
 }
 
-.information-list ul li span:hover {
+.information__holder ul li span:hover {
     opacity: 1;
     cursor: pointer;
     font-weight: bold;
@@ -805,57 +679,18 @@ input[type="submit"]:hover {
 * 
 */
 
-.copy {
-    display: inline-block;
-    width: 100%;
-}
-
 .copyright {
-    padding: 20px;
     font-size: 1.1rem;
-    text-align: center;
-    font-weight: bold;
     color: #333333;
-    padding-top: 40px;
 }
 
-.footer-icons {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.footer-icons .footer-icons-link {
+a.footer__icon {
     color: #333333;
-    margin: 0;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    background-color: #ffffff;
 }
 
-.footer-icons .icon-holder {
-    display: flex;
-    margin: auto 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-icons .icon-holder:hover {
-    opacity: .5;
-}
-
-.footer-about-us {
-    width: 60%;
-}
-
-.footer-about-us p {
-    line-height: 1.5;
-    padding: 20px 20px 40px 0;
-}
-
-.follow-us h2 {
-    line-height: 2;
+a.footer__icon:hover {
+    background-color: #838383;
+    color: white;
 }
 
 
@@ -868,19 +703,6 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 450px) {
     .copyright {
         font-size: .9rem;
-    }
-    .subscribe-data-container .subscribe-data input {
-        margin-bottom: 20px;
-    }
-    .subscribe-data {
-        display: block;
-    }
-    /* .subscribe-data a {
-        margin-left: 0;
-    } */
-    .subscribe-data input[type="email"] {
-        margin-bottom: 40px;
-        width: 80%;
     }
 }
 
@@ -973,59 +795,14 @@ input[type="submit"]:hover {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
-    .contact-form-holder,
-    .information-holder {
-        float: unset;
-        width: 100%;
-    }
     .destination-cards-container {
         padding: 60px 0;
         display: grid;
         grid-gap: 1.5rem;
         grid-template-columns: repeat(auto-fill, minmax( 15rem, 1fr));
     }
-    .contact-title h2,
-    .contact-info h2 {
-        text-align: left;
-        padding-bottom: 30px;
-    }
-    .information-list ul li {
-        padding: 0 20px 40px 0;
-    }
-    .information-holder {
-        width: 100%;
-    }
-    .contact-title h2,
-    .contact-info h2 {
-        text-align: left;
-        padding-bottom: 20px;
-    }
-    .subscribe .container {
-        width: 90vw;
-    }
-    .outer-holder-subscribe .subscribe-data-container h2 {
+    .subscribe__title {
         font-size: 1.5rem;
-    }
-    .subscribe-data input[type="email"] {
-        width: 80%;
-    }
-    .footer-icons {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-    .footer-about-us {
-        width: 100%;
-    }
-    .footer .follow-us {
-        width: 100%;
-        text-align: center;
-    }
-    .icon-container {
-        display: inline-flex;
-        width: 100%;
-        padding-top: 20px;
-        justify-content: center;
     }
     .testimonials p {
         padding: 10px 0;
@@ -1041,14 +818,6 @@ input[type="submit"]:hover {
     }
     .destination-images-container {
         grid-template-columns: repeat(auto-fill, minmax( 20rem, 1fr));
-    }
-    .price-card {
-        max-width: 300px;
-        margin: 0 auto;
-    }
-    .subscribe-data input[type="email"] {
-        margin: 0 15px 0 0;
-        width: 50%;
     }
 }
 
@@ -1110,51 +879,12 @@ input[type="submit"]:hover {
         grid-gap: 2rem;
         grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
     }
-    .contact-form-holder,
-    .information-holder {
-        float: unset;
-        width: 100%;
-    }
-    .contact-title h2,
-    .contact-info h2 {
-        text-align: left;
-        padding-bottom: 20px;
-    }
-    .footer-icons {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-    .footer-about-us {
-        width: 60%;
-        float: left;
-    }
-    .footer .follow-us {
-        width: 100%;
-        text-align: center;
-    }
-    .icon-container {
-        display: inline-flex;
-        width: 100%;
-        padding-top: 20px;
-        justify-content: center;
-    }
-    .footer-about-us {
-        width: 100%;
-    }
-    .subscribe-data input[type="email"] {
-        margin: 0 15px 0 0;
-        width: 45%;
-    }
     .testimonials p {
         padding: 10px 0;
         line-height: 1.5;
         text-align: center;
         color: #888888;
     }
-    /* .subscribe-data a {
-        margin-left: 0;
-    } */
 }
 
 
@@ -1203,9 +933,6 @@ input[type="submit"]:hover {
     .header .navbar .list-container ul li a:hover {
         background-color: unset
     }
-    .information-list ul li {
-        padding: 0 20px 40px 0;
-    }
 }
 
 
@@ -1222,41 +949,6 @@ input[type="submit"]:hover {
     .header .navbar .list-container ul li a {
         font-size: 18px;
     }
-    .contact-form-holder,
-    .information-holder {
-        float: left;
-        width: 50%;
-    }
-    .information-holder {
-        display: flex;
-        padding: 0 50px 50px;
-        justify-content: center;
-    }
-    .contact-title h2,
-    .contact-info h2 {
-        text-align: center;
-        padding-bottom: 30px;
-    }
-    .information-list ul li {
-        padding: 0 20px 40px 20px;
-    }
-    .footer-icons {
-        display: inline-flex;
-        width: 40%;
-        line-height: 2;
-    }
-    .footer-about-us {
-        width: 60%;
-        float: left;
-    }
-    .follow-us h2 {
-        line-height: 2;
-        padding-left: 20px;
-        text-align: left;
-    }
-    .footer-about-us-holder p {
-        width: 80%;
-    }
 }
 
 
@@ -1270,13 +962,6 @@ input[type="submit"]:hover {
     .outer-holder {
         margin: 0 auto;
         grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    }
-    .footer .follow-us {
-        width: unset;
-        text-align: center;
-    }
-    .price-card {
-        margin: unset;
     }
 }
 
@@ -1311,13 +996,6 @@ input[type="submit"]:hover {
 */
 
 @media only screen and (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-    .price-card-container {
-        margin: 0 auto;
-        width: 85%;
-    }
     .outer-holder {
         margin: 0 auto;
         width: 90%;
@@ -1345,8 +1023,5 @@ input[type="submit"]:hover {
     }
     .testimonial-title-holder {
         background-attachment: fixed;
-    }
-    .subscribe-data input[type="email"] {
-        width: 40%;
     }
 }
