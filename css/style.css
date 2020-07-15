@@ -456,6 +456,17 @@ h3 {
     background-repeat: no-repeat;
 }
 
+.subscribe button.btn-light {
+    background-color: #035aa6;
+    color: var(--white);
+    border-color: #035aa6;
+}
+
+.subscribe button.btn-light:hover {
+    background-color: #408ed1;
+    border-color: #408ed1;
+}
+
 
 /*
 *
